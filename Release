@@ -1,8 +1,8 @@
-Origin: Acreson's Chimera/Cydia Modify Repo
-Label:Acreson's Chimera/Cydia Modify Repo
+Origin: Pwndrer4's Chimera/Cydia Modify Repo
+Label:Pwndrer4's Chimera/Cydia Modify Repo
 Suite: stable
 Version: 1.0
-Codename: Acreson
+Codename: Pwndrer4
 Architecture: iphoneos-arm
 Components: main
 Description: Chimera/Cydia Modify Repo Stability testing for version 12.2 and above。针对Chimera越狱 ios12.2以上Cydia修改测试
