@@ -12,7 +12,7 @@ Size: 1366944
 MD5sum: aecb5c5a8717db0a750a6c2a9209e81f
 SHA1: 0765ca536180f7c7587d6198e925de9bb0038d6d
 SHA256: d6a902c38b5a3c5c4c216cb158c9181ce114ca555ba211527122c8ff3df8d513
-Section: Packaging
+Section: 系统
 Priority: optional
 Description: graphical iPhone front-end for APT
 Tag: purpose::uikit, role::enduser
@@ -35,9 +35,9 @@ Size: 1363364
 MD5sum: 6028ce2b2b341231f0fb8b6370f5b9a2
 SHA1: 4628927b437e77f25e9379bc85003932507bf45b
 SHA256: 2a6a92c7d45b90ae28369b05f7bf036a6067b5b36e1ccce38d933089e87a49b0
-Section: Acreson-安装包(Packages)
+Section: 系统
 Priority: optional
-Description: graphical iPhone front-end for APT 修改版本Chimera专用Cydia
+Description: graphical iPhone front-end for APT Pwndrer4最新修改版本Chimera专用Cydia
 Tag: purpose::uikit, role::enduser
 Author: Diatr & Acreson
 Depiction: http://cydia.saurik.com/info/cydia/
@@ -58,7 +58,7 @@ Size: 67068
 MD5sum: 8bbbc811e0facd68428880dda7bcfcc7
 SHA1: 73a9f4ab16262a3027ca3d0d4879919734790018
 SHA256: 6b96709cd263d51fd474c0e878a637b90aa1019dbd0571847b6fa509f615cf9b
-Section: Acreson-依赖(Depends)
+Section: 依赖
 Priority: required
 Description: languages and translations for Cydia。Cydia的语言和翻译
 Author: Jay Freeman (saurik) <saurik@saurik.com>
@@ -77,7 +77,7 @@ Size: 11632
 MD5sum: 42f468b825c64c28ef7c22ee068a9d44
 SHA1: 923ed3dc73e7d378bc3ca4e3f9fb03f02fedf491
 SHA256: 2166501d3e3986357d535e8b4aae1817f02314ca604c49ad0d10b7255fae7bd1
-Section: Acreson-依赖(Depends)
+Section: 依赖
 Priority: optional
 Multi-Arch: foreign
 Description: locally cached package icons from BigBoss
