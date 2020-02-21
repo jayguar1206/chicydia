@@ -1,86 +1,62 @@
-Package: cydia-dark
-Version: 1.9.3~chimera5
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 9416
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: ./debs/cydia-dark_1.9.3~chimera5.deb
-Size: 1366944
-MD5sum: aecb5c5a8717db0a750a6c2a9209e81f
-SHA1: 0765ca536180f7c7587d6198e925de9bb0038d6d
-SHA256: d6a902c38b5a3c5c4c216cb158c9181ce114ca555ba211527122c8ff3df8d513
-Section: 系统
+Package: org.thebigboss.repo.icons
+Version: 1.2
 Priority: optional
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, role::enduser
-Author: Diatrus <me@diatr.us>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Chimera/Electra
-
-Package: cydia-dark
-Version: 1.9.3~chimeramodify1
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 9416
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
-Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
-Filename: ./debs/cydia-dark_1.9.3~chimeramodify1_iphoneos-arm.deb
-Size: 1363364
-MD5sum: 6028ce2b2b341231f0fb8b6370f5b9a2
-SHA1: 4628927b437e77f25e9379bc85003932507bf45b
-SHA256: 2a6a92c7d45b90ae28369b05f7bf036a6067b5b36e1ccce38d933089e87a49b0
-Section: 系统
-Priority: optional
-Description: graphical iPhone front-end for APT Pwndrer4最新修改版本Chimera专用Cydia
-Tag: purpose::uikit, role::enduser
-Author: Diatr & Acreson
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia for Chimera/Electra Modify
+Section: 依赖
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Replaces: cydia, bigboss
+Architecture: all
+Filename: /debs/20200221/2C3HyWef3wK9haGzfTXzJqwaVyk6buvAd325BYfx.deb
+Size: 11462
+Installed-Size: 48
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+Author: Bigboss
+Depiction: http://cydia.pwndrer4.xyz/index.php?pid=3
+SileoDepiction: http://cydia.pwndrer4.xyz/sileo.php?pid=3
+Icon: file:///Applications/Cydia.app/Sections/Addons.png
+MD5sum: ccdd59ece3781ab74492c4e132c35cfe
 
 Package: cydia-lproj
 Version: 1.9.3~chimera5
-Architecture: iphoneos-arm
+Priority: required
+Section: 依赖
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 712
 Depends: cydia
 Conflicts: org.thebigboss.russiancydia
-Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
-Filename: ./debs/cydia-lproj_1.9.3~chimera5_iphoneos-arm.deb
-Size: 67068
-MD5sum: 8bbbc811e0facd68428880dda7bcfcc7
-SHA1: 73a9f4ab16262a3027ca3d0d4879919734790018
-SHA256: 6b96709cd263d51fd474c0e878a637b90aa1019dbd0571847b6fa509f615cf9b
-Section: 依赖
-Priority: required
+Replaces: cydia, org.thebigboss.russiancydia
+Architecture: iphoneos-arm
+Filename: ./debs/20200221/0RkU5TEOWPmZioBGIzd07uFQK59emu4YahTpcaov.deb
+Size: 76054
+Installed-Size: 712
 Description: languages and translations for Cydia。Cydia的语言和翻译
+Name: Cydia Translations
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
+SileoDepiction: http://cydia.saurik.com/info/cydia-lproj/
 Icon: file:///Applications/Cydia.app/Sections/Addons.png
-Name: Cydia Translations
+MD5sum: 8d7f90318eb3018910a6910b0406188e
 
-Package: org.thebigboss.repo.icons
-Version: 1.2
-Architecture: all
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 48
-Replaces: cydia, bigboss
-Filename: ./debs/org.thebigboss.repo.icons_1.2_all.deb
-Size: 11632
-MD5sum: 42f468b825c64c28ef7c22ee068a9d44
-SHA1: 923ed3dc73e7d378bc3ca4e3f9fb03f02fedf491
-SHA256: 2166501d3e3986357d535e8b4aae1817f02314ca604c49ad0d10b7255fae7bd1
-Section: 依赖
+Package: cydia
+Version: 99999999999999.0
 Priority: optional
-Multi-Arch: foreign
-Description: locally cached package icons from BigBoss
-Icon: file:///Applications/Cydia.app/Sections/Addons.png
-Name: BigBoss Icon Set
+Section: 依赖
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
+Architecture: iphoneos-arm
+Filename: ./debs/20200221/2TpnnNBAgYXECcFWGucnsVaX7HaIh7dBSzfNGTy9.deb
+Size: 1755166
+Installed-Size: 9416
+Description: graphical iPhone front-end for APT
+Name: Cydia Instaler
+Author: Pwndrer4
+Sponsor: Pwndrer4
+Depiction: http://cydia.saurik.com/info/cydia/
+SileoDepiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, role::enduser
+MD5sum: 9681cc9e1a14eb5ad3a12bfddfb6ba0b
 
