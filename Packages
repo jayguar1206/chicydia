@@ -5,7 +5,7 @@ Section: 依赖
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Replaces: cydia, bigboss
 Architecture: all
-Filename: /debs/20200221/2C3HyWef3wK9haGzfTXzJqwaVyk6buvAd325BYfx.deb
+Filename: /debs/2C3HyWef3wK9haGzfTXzJqwaVyk6buvAd325BYfx.deb
 Size: 11462
 Installed-Size: 48
 Description: locally cached package icons from BigBoss
@@ -26,7 +26,7 @@ Conflicts: org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Architecture: iphoneos-arm
-Filename: ./debs/20200221/0RkU5TEOWPmZioBGIzd07uFQK59emu4YahTpcaov.deb
+Filename: ./debs/0RkU5TEOWPmZioBGIzd07uFQK59emu4YahTpcaov.deb
 Size: 76054
 Installed-Size: 712
 Description: languages and translations for Cydia。Cydia的语言和翻译
@@ -47,7 +47,7 @@ Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwint
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
 Architecture: iphoneos-arm
-Filename: ./debs/20200221/2TpnnNBAgYXECcFWGucnsVaX7HaIh7dBSzfNGTy9.deb
+Filename: ./debs/2TpnnNBAgYXECcFWGucnsVaX7HaIh7dBSzfNGTy9.deb
 Size: 1755166
 Installed-Size: 9416
 Description: graphical iPhone front-end for APT
